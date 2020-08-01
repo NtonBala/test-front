@@ -1,0 +1,57 @@
+// Lato
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+      url('../fonts/Lato/Lato-Regular.woff2') format('woff2'),
+      url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+      url('../fonts/Lato/Lato-Regular.ttf') format('truetype'),
+      url('../fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'),
+      url('../fonts/Lato/Lato-Bold.woff2') format('woff2'),
+      url('../fonts/Lato/Lato-Bold.woff') format('woff'),
+      url('../fonts/Lato/Lato-Bold.ttf') format('truetype'),
+      url('../fonts/Lato/Lato-Bold.eot?#iefix') format('embedded-opentype');
+}
+
+// Playfair Display
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Playfair Display Italic'), local('PlayfairDisplay-Italic'),
+      url('../fonts/Playfair_Display/PlayfairDisplay-Italic.woff2') format('woff2'),
+      url('../fonts/Playfair_Display/PlayfairDisplay-Italic.woff') format('woff'),
+      url('../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf') format('truetype'),
+      url('../fonts/Playfair_Display/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Playfair Display Bold Italic'), local('PlayfairDisplay-BoldItalic'),
+      url('../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+      url('../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.woff') format('woff'),
+      url('../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+      url('../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype');
+}
+
+// Krinkes Decor
+@font-face {
+  font-family: 'Krinkes Decor PERSONAL USE';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Krinkes Decor PERSONAL USE'), local('KrinkesDecorPERSONALUSE'),
+      url('../fonts/Krinkes_Decor/KrinkesDecorPERSONALUSE.woff2') format('woff2'),
+      url('../fonts/Krinkes_Decor/KrinkesDecorPERSONALUSE.woff') format('woff'),
+      url('../fonts/Krinkes_Decor/KrinkesDecorPERSONALUSE.ttf') format('truetype'),
+      url('../fonts/Krinkes_Decor/KrinkesDecorPERSONALUSE.eot?#iefix') format('embedded-opentype');
+}
