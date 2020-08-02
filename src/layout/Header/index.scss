@@ -1,0 +1,102 @@
+@import '../../styles/variables/index';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+
+.header-title {
+  font-family: $KrinkesDecor;
+  font-size: 72px;
+}
+
+.header-menu {
+  display: flex;
+
+  & li:last-of-type &__link {
+    margin-right: 0;
+  }
+
+  &__link {
+    margin-right: 25px;
+    outline: 0;
+    color: $color_primary;
+    text-decoration: none;
+    font-family: $PlayfairDisplay;
+    font-size: 18px;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+
+  .header-socials {
+    display: flex;
+    margin: 0 -5px;
+
+    &__item {
+      margin: 0 5px;
+    }
+
+    &__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border: 2px solid $color_decor;
+      border-radius: 50%;
+      outline: 0;
+
+      &:hover,
+      &:focus {
+        border-color: darken($color_decor, 15%);
+
+        svg {
+          fill: darken($color_decor, 15%);
+        }
+      }
+
+      svg {
+        width: 16px;
+        fill: $color_decor;
+      }
+    }
+  }
+
+  .header-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 90px;
+    margin-left: 40px;
+    padding: 10px 12px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid $color_primary;
+    background-color: $color_primary;
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23fff' style='transform: rotate(90deg);' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 25 25'%3E%3Cpath d='M18.5 11.7L8.2 1.3C7.7.9 7 .9 6.5 1.3c-.4.5-.4 1.2 0 1.7l9.5 9.5L6.5 22c-.5.5-.5 1.2 0 1.6.5.5 1.2.5 1.6 0l10.3-10.3c.5-.4.5-1.2.1-1.6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position-x: 90%;
+    background-position-y: 50%;
+    text-transform: uppercase;
+    color: $color_secondary;
+    font-weight: 700;
+    font-size: 12px;
+
+    &:hover,
+    &:focus {
+      background-color: $color_secondary;
+      background-image: url("data:image/svg+xml,%3Csvg fill='%23000' style='transform: rotate(90deg);' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 25 25'%3E%3Cpath d='M18.5 11.7L8.2 1.3C7.7.9 7 .9 6.5 1.3c-.4.5-.4 1.2 0 1.7l9.5 9.5L6.5 22c-.5.5-.5 1.2 0 1.6.5.5 1.2.5 1.6 0l10.3-10.3c.5-.4.5-1.2.1-1.6z'/%3E%3C/svg%3E");
+      color: $color_primary;
+    }
+  }
+}

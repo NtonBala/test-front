@@ -1,0 +1,57 @@
+@import '../../styles/variables/index';
+
+.top-bar-backstage {
+  background-color: $color_bg_topBar;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-bar-phone {
+  display: flex;
+  align-items: center;
+  outline: 0;
+  color: $color_primary;
+  text-decoration: none;
+  font-size: 11px;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  &__icon {
+    width: 10px;
+    margin-right: 20px;
+  }
+}
+
+.top-bar-menu {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+
+  & li:last-of-type &__link:after {
+    content: none;
+  }
+
+  &__link {
+    color: $color_primary;
+    outline: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+
+    &:after {
+      content: '\007C';
+      margin: 0 25px;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
