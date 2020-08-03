@@ -2,14 +2,20 @@
 import React from 'react';
 
 // Components
-import { TopBar, Header } from './layout';
+import { TopBar, Header, HeroSlider } from './layout';
+
+// Instruments
+import './App.scss';
 
 const App = () => {
   return (
-    <div>
-      <TopBar />
-      <Header />
-    </div>
+    <>
+      <header className="header-wrapper">
+        <TopBar />
+        <Header />
+        <HeroSlider />
+      </header>
+    </>
   );
 };
 

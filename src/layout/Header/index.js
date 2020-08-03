@@ -16,7 +16,7 @@ import './index.scss';
 
 const Header = () => {
   return (
-    <header className="content">
+    <div className="content">
       <div className="header">
         <ul className="header-menu">
           <li>
@@ -70,7 +70,7 @@ const Header = () => {
           </select>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 
