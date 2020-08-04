@@ -1,0 +1,31 @@
+@import '../../styles/variables/index';
+
+.footer-menu {
+  &__title {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: $color_secondary;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  &__list {
+    margin-bottom: -20px;
+  }
+
+  &__item {
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    outline: 0;
+    text-decoration: none;
+    color: $grey_55;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+}

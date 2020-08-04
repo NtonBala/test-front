@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Shops",
+    "links": [
+      {
+        "title": "New In",
+        "src": "#"
+      },
+      {
+        "title": "Women",
+        "src": "#"
+      },
+      {
+        "title": "Men",
+        "src": "#"
+      },
+      {
+        "title": "Shoes",
+        "src": "#"
+      },
+      {
+        "title": "Bags & Accessories",
+        "src": "#"
+      },
+      {
+        "title": "Top Brands",
+        "src": "#"
+      },
+      {
+        "title": "Sale & Special Offers",
+        "src": "#"
+      },
+      {
+        "title": "Lookbook",
+        "src": "#"
+      }
+    ]
+  },
+  {
+    "title": "Information",
+    "links": [
+      {
+        "title": "About us",
+        "src": "#"
+      },
+      {
+        "title": "Customer Service",
+        "src": "#"
+      },
+      {
+        "title": "New Collection",
+        "src": "#"
+      },
+      {
+        "title": "Best Sellers",
+        "src": "#"
+      },
+      {
+        "title": "Manufactures",
+        "src": "#"
+      },
+      {
+        "title": "Privacy Policy",
+        "src": "#"
+      },
+      {
+        "title": "Terms & Condition",
+        "src": "#"
+      },
+      {
+        "title": "Blog",
+        "src": "#"
+      }
+    ]
+  },
+  {
+    "title": "Customer Service",
+    "links": [
+      {
+        "title": "Search Terms",
+        "src": "#"
+      },
+      {
+        "title": "Advanced Search",
+        "src": "#"
+      },
+      {
+        "title": "Orders & Returns",
+        "src": "#"
+      },
+      {
+        "title": "Contact Us",
+        "src": "#"
+      },
+      {
+        "title": "RSS",
+        "src": "#"
+      },
+      {
+        "title": "Help & FAQs",
+        "src": "#"
+      },
+      {
+        "title": "Consultant",
+        "src": "#"
+      },
+      {
+        "title": "Store Locations",
+        "src": "#"
+      }
+    ]
+  }
+]
