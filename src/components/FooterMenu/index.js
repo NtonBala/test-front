@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Instruments
-import './index.scss';
+import './FooterMenu.scss';
 
 const FooterMenu = ({ title, links }) => {
   const linksJSX = links.map((item, i) => {

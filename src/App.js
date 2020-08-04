@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Components
-import { TopBar, Header, HeroSlider, Footer } from './layout';
+import { TopBar, Header, HeroSlider, Footer, Banner } from './layout';
 
 // Instruments
 import './App.scss';
@@ -16,6 +16,13 @@ const App = () => {
         <HeroSlider />
       </header>
 
+      <main>
+        <div className="content">
+          <div className="banner-wrapper">
+            <Banner />
+          </div>
+        </div>
+      </main>
 
       <Footer />
     </>

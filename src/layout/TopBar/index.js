@@ -7,7 +7,7 @@ import React from 'react';
 import { PhoneIcon } from '../../components';
 
 // Instruments
-import './index.scss';
+import './TopBar.scss';
 
 const TopBar = () => {
   return (

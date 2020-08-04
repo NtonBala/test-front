@@ -4,7 +4,7 @@
 import React from 'react';
 
 // Instruments
-import './index.scss';
+import './HeroSlider.scss';
 import slideImg from '../../images/header-slide-1.png';
 
 const HeroSlider = () => {

@@ -14,7 +14,7 @@ import {
 } from '../../components';
 
 // Instruments
-import './index.scss';
+import './Footer.scss';
 import footerMenu from './footerMenu.json';
 import visa from '../../images/visa.png';
 import mastercard from '../../images/mastercard.png';

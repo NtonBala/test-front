@@ -1,0 +1,59 @@
+@import '../../styles/variables/index';
+
+.banner {
+  display: flex;
+  justify-content: center;
+
+  &__left,
+  &__center,
+  &__right {
+    display: flex;
+    justify-content: center;
+    padding: .75em 0;
+    text-transform: uppercase;
+    color: $color_secondary;
+    font-weight: 700;
+    font-size: 30px;
+
+    @media (max-width: 1320px){
+      font-size: 2.27vw;
+    }
+
+  }
+
+  &__left,
+  &__right {
+    width: 33.33%;
+    background-color: $color_decor;
+  }
+
+  &__left {
+    clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
+  }
+
+  &__center {
+    width: calc(33.33% + 1.33em);
+    margin: 0 -.66em;
+    clip-path: polygon(0 0, 100% 1%, 91% 50%, 100% 100%, 0 100%, 9% 50%);
+    background-color: $color_primary;
+  }
+
+  &__right {
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 0 50%);
+  }
+
+  &__description {
+    display: flex;
+    margin-top: .35em;
+    text-transform: none;
+    font-weight: 400;
+    font-size: .47em; 
+  }
+
+  &__icon {
+    width: 1.17em;
+    margin-right: 1em;
+    fill: $color_secondary;
+  }
+
+}

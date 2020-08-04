@@ -12,7 +12,7 @@ import {
 } from '../../components';
 
 // Instruments
-import './index.scss';
+import './Header.scss';
 
 const Header = () => {
   return (
