@@ -1,0 +1,127 @@
+@import '../../styles/variables/index';
+
+.showcase-title-wrapper {
+  margin-bottom: 62px;
+}
+
+.showcase {
+  margin-bottom: 95px;
+  display: grid;
+  grid-template-columns: 31% 1fr 31%;
+  grid-gap: 15px;
+
+  &__aside-card,
+  &__center-card {
+    position: relative;
+    background-color: $grey_08;
+
+    .showcase-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      border: 2px solid $color_secondary;
+      background-clip: padding-box;
+      transition: all .2s linear;
+    }
+
+    &:hover {
+      &:after {
+        border-color: rgba($grey_56, .3);
+        background-color: rgba($grey_56, .3);
+      }
+
+      .showcase__card-inner-btn {
+        position: initial;
+        width: auto;
+        height: auto;
+        padding: 7px 10px;
+        margin: initial;
+        overflow: initial;
+        clip: initial;
+        white-space: initial;
+        border: 0;
+        opacity: 1;
+      }
+
+    }
+
+  }
+
+  &__center-card {
+    grid-column: 2 / 2;
+    grid-row: 1 / span 2;
+
+    &:after {
+      top: 2.5%;
+      right: 5%;
+      bottom: 2.5%;
+      left: 5%;
+    }
+
+    .showcase__card-inner {
+      margin-bottom: 70%;
+    }
+
+  }
+
+  &__aside-card {
+    height: 0;
+    padding-bottom: 100%;
+
+    &:after {
+      top: 5%;
+      right: 5%;
+      bottom: 5%;
+      left: 5%;
+    }
+
+  }
+
+  &__card-inner {
+    margin-bottom: 20%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: 10001;
+
+    &-btn {
+      padding: 7px 10px;
+      cursor: pointer;
+      outline: 0;
+      border: none;
+      background-color: $sandybrown_33;
+      text-transform: uppercase;
+      color: $color_secondary;
+      font-family: $Lato;
+      font-size: 14px;
+
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+      opacity: 0;
+      transition: opacity .2s linear;
+
+
+      &:hover {
+        background-color: darken($sandybrown_33, 15%);
+      }
+
+    }
+
+  }
+
+}

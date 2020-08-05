@@ -8,8 +8,8 @@ import {
   HeroSlider,
   Footer,
   Banner,
+  Showcase,
 } from './layout';
-import { SectionTitle } from './components';
 
 // Instruments
 import './App.scss';
@@ -30,9 +30,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className="content">
-          <SectionTitle>HandPicked</SectionTitle>
-        </div>
+        <Showcase />
       </main>
 
       <Footer />
