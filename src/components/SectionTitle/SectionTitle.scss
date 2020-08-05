@@ -1,0 +1,45 @@
+@import '../../styles/variables/index';
+
+.section-title-decor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &:before,
+  &:after {
+    content: "";
+    flex-grow: 1;
+    border-bottom: 1px solid $grey_08;
+  }
+
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $PlayfairDisplay;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: $color_decor;
+    transform: rotate(-45deg);
+  }
+
+  &:before {
+    margin: 0 70px 0 60px;
+  }
+
+  &:after {
+    margin: 0 60px 0 70px;
+  }
+
+}
