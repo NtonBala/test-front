@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/test-front/static/css/main.4aa6f008.chunk.css",
+    "main.js": "/test-front/static/js/main.3e8c1201.chunk.js",
+    "main.js.map": "/test-front/static/js/main.3e8c1201.chunk.js.map",
+    "runtime-main.js": "/test-front/static/js/runtime-main.e09485ec.js",
+    "runtime-main.js.map": "/test-front/static/js/runtime-main.e09485ec.js.map",
+    "static/js/2.86ed5d30.chunk.js": "/test-front/static/js/2.86ed5d30.chunk.js",
+    "static/js/2.86ed5d30.chunk.js.map": "/test-front/static/js/2.86ed5d30.chunk.js.map",
+    "index.html": "/test-front/index.html",
+    "precache-manifest.2d41591f627f4db91dc238e7c86e38a7.js": "/test-front/precache-manifest.2d41591f627f4db91dc238e7c86e38a7.js",
+    "service-worker.js": "/test-front/service-worker.js",
+    "static/css/main.4aa6f008.chunk.css.map": "/test-front/static/css/main.4aa6f008.chunk.css.map",
+    "static/js/2.86ed5d30.chunk.js.LICENSE.txt": "/test-front/static/js/2.86ed5d30.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/test-front/static/media/PlayfairDisplay-Italic.cbb6b417.woff",
+    "static/media/header-slide-1.png": "/test-front/static/media/header-slide-1.874c9ef7.png",
+    "static/media/icon-clock.082320d3.svg": "/test-front/static/media/icon-clock.082320d3.svg",
+    "static/media/icon-plane.1be60f4e.svg": "/test-front/static/media/icon-plane.1be60f4e.svg",
+    "static/media/icon-question.d20b2efd.svg": "/test-front/static/media/icon-question.d20b2efd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e09485ec.js",
+    "static/js/2.86ed5d30.chunk.js",
+    "static/css/main.4aa6f008.chunk.css",
+    "static/js/main.3e8c1201.chunk.js"
+  ]
+}
