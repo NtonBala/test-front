@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "238be995884f76415edba9ab03fb9d6a",
+    "revision": "562b1002f315b7fe42d81f62cecf5204",
     "url": "/test-front/index.html"
   },
   {
-    "revision": "5445ac3629b38e397ebb",
-    "url": "/test-front/static/css/main.30f92880.chunk.css"
+    "revision": "d5187cdbbad41661436b",
+    "url": "/test-front/static/css/main.34fa6691.chunk.css"
   },
   {
-    "revision": "6950e0ad2587e0071740",
-    "url": "/test-front/static/js/2.86ed5d30.chunk.js"
+    "revision": "723c54421389f9d9f4fb",
+    "url": "/test-front/static/js/2.02c2f3fb.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/test-front/static/js/2.86ed5d30.chunk.js.LICENSE.txt"
+    "url": "/test-front/static/js/2.02c2f3fb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5445ac3629b38e397ebb",
-    "url": "/test-front/static/js/main.84dfc856.chunk.js"
+    "revision": "d5187cdbbad41661436b",
+    "url": "/test-front/static/js/main.755f158b.chunk.js"
   },
   {
     "revision": "c88ec16f208308a1e337",
@@ -102,6 +102,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cbb6b4179fc691e9f57182054e059fc1",
     "url": "/test-front/static/media/PlayfairDisplay-Italic.cbb6b417.woff"
+  },
+  {
+    "revision": "aef338f482e35d723bcc233b4059fb1f",
+    "url": "/test-front/static/media/boots.aef338f4.png"
+  },
+  {
+    "revision": "245c307d05191b320596bc03e687d5e8",
+    "url": "/test-front/static/media/bracelet.245c307d.png"
+  },
+  {
+    "revision": "5b1d84cfe358c10d498462454d6bded9",
+    "url": "/test-front/static/media/collection.5b1d84cf.png"
+  },
+  {
+    "revision": "06c94f30352e613c31220bf830cad5cc",
+    "url": "/test-front/static/media/coulomb.06c94f30.png"
+  },
+  {
+    "revision": "569aa7e46b3b0f7cba401c211e53a70c",
+    "url": "/test-front/static/media/cover.569aa7e4.png"
   },
   {
     "revision": "874c9ef7872ae1ebe9600fb79cf6bf15",
