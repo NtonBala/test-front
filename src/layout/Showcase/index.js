@@ -24,7 +24,7 @@ const Showcase = () => {
           <img className="showcase-image" src={ bootsImg } alt="" />
 
           <div className="showcase__card-inner">
-            <button className="showcase__card-inner-btn" onClick={alert}>Shop now</button>
+            <button className="showcase__card-inner-btn">Shop now</button>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ const Showcase = () => {
           <img className="showcase-image" src={ collectionImg } alt="" />
 
           <div className="showcase__card-inner">
-            <button className="showcase__card-inner-btn" onClick={alert}>Shop now</button>
+            <button className="showcase__card-inner-btn">Shop now</button>
           </div>
         </div>
 
@@ -40,7 +40,7 @@ const Showcase = () => {
           <img className="showcase-image" src={ coulombImg } alt="" />
 
           <div className="showcase__card-inner">
-            <button className="showcase__card-inner-btn" onClick={alert}>Shop now</button>
+            <button className="showcase__card-inner-btn">Shop now</button>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ const Showcase = () => {
           <img className="showcase-image" src={ braceletImg } alt="" />
 
           <div className="showcase__card-inner">
-            <button className="showcase__card-inner-btn" onClick={alert}>Shop now</button>
+            <button className="showcase__card-inner-btn">Shop now</button>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ const Showcase = () => {
           <img className="showcase-image" src={ coverImg } alt="" />
 
           <div className="showcase__card-inner">
-            <button className="showcase__card-inner-btn" onClick={alert}>Shop now</button>
+            <button className="showcase__card-inner-btn">Shop now</button>
           </div>
         </div>
       </div>
