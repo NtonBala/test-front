@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b78cbd2a2153e314e381e469468a2132",
+    "revision": "ee3d8f9ac8242f0a00dd7380e0f6077d",
     "url": "/test-front/index.html"
   },
   {
-    "revision": "4b5726a5ff8f1cd6d507",
-    "url": "/test-front/static/css/main.99090bf9.chunk.css"
+    "revision": "b80c23f156ed6d5962e4",
+    "url": "/test-front/static/css/main.eb69aabd.chunk.css"
   },
   {
-    "revision": "2576bf1cd4115a2d35fc",
-    "url": "/test-front/static/js/2.a35f319a.chunk.js"
+    "revision": "111f2ad92133450a89d8",
+    "url": "/test-front/static/js/2.0da9043a.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/test-front/static/js/2.a35f319a.chunk.js.LICENSE.txt"
+    "url": "/test-front/static/js/2.0da9043a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b5726a5ff8f1cd6d507",
-    "url": "/test-front/static/js/main.a96a041a.chunk.js"
+    "revision": "b80c23f156ed6d5962e4",
+    "url": "/test-front/static/js/main.14f30383.chunk.js"
   },
   {
     "revision": "c88ec16f208308a1e337",
@@ -114,6 +114,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1586087fb6a4b487d181ecf91a6f8348",
     "url": "/test-front/static/media/collection-1.1586087f.png"
+  },
+  {
+    "revision": "2d2487271b9d9c3cd5a22af6a5d57281",
+    "url": "/test-front/static/media/collection-2.2d248727.png"
+  },
+  {
+    "revision": "94fccfac322657e3b693b09d8d1c1574",
+    "url": "/test-front/static/media/collection-3.94fccfac.png"
+  },
+  {
+    "revision": "7137aef39e08bba478e9c6fdb9415b43",
+    "url": "/test-front/static/media/collection-4.7137aef3.png"
+  },
+  {
+    "revision": "3d92afde6368d72a9ff1cc8c9b737bf0",
+    "url": "/test-front/static/media/collection-5.3d92afde.png"
+  },
+  {
+    "revision": "9c4e394a30a370c55fc62d6c480ee56b",
+    "url": "/test-front/static/media/collection-6.9c4e394a.png"
+  },
+  {
+    "revision": "d16d9ed3c1aa3ca62ee0be3f61885b69",
+    "url": "/test-front/static/media/collection-7.d16d9ed3.png"
+  },
+  {
+    "revision": "a32a039e2cb52fbe069cff46e89a6356",
+    "url": "/test-front/static/media/collection-8.a32a039e.png"
   },
   {
     "revision": "5b1d84cfe358c10d498462454d6bded9",
