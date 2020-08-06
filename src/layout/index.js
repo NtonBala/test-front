@@ -4,3 +4,4 @@ export { HeroSlider } from './HeroSlider';
 export { Footer } from './Footer';
 export { Banner } from './Banner';
 export { Showcase } from './Showcase';
+export { Collection } from './Collection';

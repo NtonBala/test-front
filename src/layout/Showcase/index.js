@@ -14,7 +14,7 @@ import coverImg from '../../images/cover.png';
 
 const Showcase = () => {
   return (
-    <div className="content">
+    <div>
       <div className="showcase-title-wrapper">
         <SectionTitle>HandPicked</SectionTitle>
       </div>
