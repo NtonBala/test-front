@@ -6,3 +6,4 @@ export { PhoneIcon } from './PhoneIcon';
 export { RSSIcon } from './RSSIcon';
 export { FooterMenu } from './FooterMenu';
 export { SectionTitle } from './SectionTitle';
+export { CollectionCard } from './CollectionCard';
