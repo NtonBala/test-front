@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1431fffe774c6da227c5bfecebf04014",
+    "revision": "200ee33c3777bc4c260aec4b824782b6",
     "url": "/test-front/index.html"
   },
   {
-    "revision": "d188512cc80d82a6632e",
-    "url": "/test-front/static/css/main.ecbbb190.chunk.css"
+    "revision": "ff44b2350bb13a35ca1b",
+    "url": "/test-front/static/css/main.e3c56dc9.chunk.css"
   },
   {
-    "revision": "b135a1005f1537fa2812",
-    "url": "/test-front/static/js/2.7b756232.chunk.js"
+    "revision": "01461a1ce0a9f3eab38b",
+    "url": "/test-front/static/js/2.64f59532.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/test-front/static/js/2.7b756232.chunk.js.LICENSE.txt"
+    "url": "/test-front/static/js/2.64f59532.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d188512cc80d82a6632e",
-    "url": "/test-front/static/js/main.a86eb953.chunk.js"
+    "revision": "ff44b2350bb13a35ca1b",
+    "url": "/test-front/static/js/main.55dd5f79.chunk.js"
   },
   {
     "revision": "c88ec16f208308a1e337",
@@ -112,14 +112,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test-front/static/media/bracelet.245c307d.png"
   },
   {
-    "revision": "b151bef00fa369c988d22b0f54ac7e32",
-    "url": "/test-front/static/media/brands-left.b151bef0.png"
-  },
-  {
-    "revision": "1005b2623810a1716c8bbf776b25ced5",
-    "url": "/test-front/static/media/brands-right.1005b262.png"
-  },
-  {
     "revision": "1586087fb6a4b487d181ecf91a6f8348",
     "url": "/test-front/static/media/collection-1.1586087f.png"
   },
@@ -162,6 +154,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "569aa7e46b3b0f7cba401c211e53a70c",
     "url": "/test-front/static/media/cover.569aa7e4.png"
+  },
+  {
+    "revision": "b151bef00fa369c988d22b0f54ac7e32",
+    "url": "/test-front/static/media/customers-left.b151bef0.png"
+  },
+  {
+    "revision": "1005b2623810a1716c8bbf776b25ced5",
+    "url": "/test-front/static/media/customers-right.1005b262.png"
   },
   {
     "revision": "874c9ef7872ae1ebe9600fb79cf6bf15",
