@@ -49,9 +49,9 @@ const cards = [
 ];
 
 const Collection = () => {
-  const cardsJSX = cards.map((item) => {
+  const cardsJSX = cards.map((item, i) => {
     return (
-      <div className="collection__card-wrapper">
+      <div key={ i } className="collection__card-wrapper">
         <CollectionCard { ...item } />
       </div>
     );
