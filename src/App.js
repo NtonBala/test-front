@@ -10,6 +10,7 @@ import {
   Banner,
   Showcase,
   Collection,
+  Customers,
   Brands,
 } from './layout';
 
@@ -40,8 +41,11 @@ const App = () => {
           <Collection />
         </div>
 
+        <div className="content">
+          <Brands />
+        </div>
 
-        <Brands />
+        <Customers />
       </main>
 
       <Footer />

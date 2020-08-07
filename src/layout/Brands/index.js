@@ -6,53 +6,43 @@ import { SectionTitle } from '../../components';
 
 // Instruments
 import './Brands.scss';
-import brandsImgLeft from '../../images/brands-left.png';
-import brandsImgRight from '../../images/brands-right.png';
+import brandImg1 from '../../images/brand-1.png';
+import brandImg2 from '../../images/brand-2.png';
+import brandImg3 from '../../images/brand-3.png';
+import brandImg4 from '../../images/brand-4.png';
+import brandImg5 from '../../images/brand-5.png';
+import brandImg6 from '../../images/brand-6.png';
 
 const Brands = () => {
   return (
-    <div>
+    <div className="brands">
       <div className="brands-title-wrapper">
-        <SectionTitle>Customers Says</SectionTitle>
+        <SectionTitle>Our Brand</SectionTitle>
       </div>
 
-      <div className="brands-backstage">
-        <div className="content">
-          <div className="brands">
-            <div className="brands__inner">
-              <div className="brands__inner-left">
-                <div className="brands__img-wrapper">
-                  <img className="brands__img" src={ brandsImgLeft } alt="" />
-                </div>
+      <div className="brands__band">
+        <div className="brands__band-img-wrapper">
+          <img src={ brandImg1 } alt="Bakery logo" />
+        </div>
 
-                <div className="brands__testimonial">
-                  <p className="brands__testimonial-text">
-                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque
-                  </p>
+        <div className="brands__band-img-wrapper">
+          <img src={ brandImg2 } alt="Lavalier logo" />
+        </div>
 
-                  <p className="brands__testimonial-author">
-                    Sandra Dewi <span className="brands__testimonial-author-position">Fashion stylish</span>
-                  </p>
-                </div>
-              </div>
+        <div className="brands__band-img-wrapper">
+          <img src={ brandImg3 } alt="Harvest Co Logo" />
+        </div>
 
-              <div className="brands__inner-right">
-                <div className="brands__testimonial">
-                  <p className="brands__testimonial-text">
-                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque
-                  </p>
+        <div className="brands__band-img-wrapper">
+          <img src={ brandImg4 } alt="Landlock logo" />
+        </div>
 
-                  <p className="brands__testimonial-author">
-                    Shaheer Sheikh <span className="brands__testimonial-author-position">Designer</span>
-                  </p>
-                </div>
+        <div className="brands__band-img-wrapper">
+          <img src={ brandImg5 } alt="Spectrum logo" />
+        </div>
 
-                <div className="brands__img-wrapper">
-                  <img className="brands__img" src={ brandsImgRight } alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="brands__band-img-wrapper">
+          <img src={ brandImg6 } alt="Home energy logo" />
         </div>
       </div>
     </div>
