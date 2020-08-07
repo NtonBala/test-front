@@ -10,6 +10,7 @@ import {
   Banner,
   Showcase,
   Collection,
+  Brands,
 } from './layout';
 
 // Instruments
@@ -38,6 +39,9 @@ const App = () => {
         <div className="content">
           <Collection />
         </div>
+
+
+        <Brands />
       </main>
 
       <Footer />

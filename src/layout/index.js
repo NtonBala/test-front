@@ -5,3 +5,4 @@ export { Footer } from './Footer';
 export { Banner } from './Banner';
 export { Showcase } from './Showcase';
 export { Collection } from './Collection';
+export { Brands } from './Brands';
